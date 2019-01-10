@@ -1,6 +1,6 @@
-import {
-  NativeModules
-} from 'react-native';
-const RNMatisse = NativeModules.RNMatisse;
 
-module.exports = { RNMatisse };
+import { NativeModules } from 'react-native';
+
+const { RNReactNativeMatisseBbw } = NativeModules;
+
+export default RNReactNativeMatisseBbw;
